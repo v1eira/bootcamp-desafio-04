@@ -1,0 +1,21 @@
+header {
+    background: #2361c5;
+    height: 50px;
+}
+
+nav img {
+    height: 22px;
+    padding-top: 10px;
+}
+
+nav span {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
