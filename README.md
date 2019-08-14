@@ -77,3 +77,7 @@ Esse desafio **não precisa ser entregue** e não receberá correção, mas voc�
 Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
 “Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!
+
+## Resolução
+
+![example](example.png)

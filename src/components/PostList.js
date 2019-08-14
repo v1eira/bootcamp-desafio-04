@@ -12,7 +12,7 @@ class PostList extends Component {
               avatar: 'https://avatars0.githubusercontent.com/u/22565566?s=400&u=3fd9c670ab6847482bc3ea79c91786c02f435e46&v=4'
             },
             date: '14 Aug 2019',
-            content: 'Fala seus vacilão',
+            content: 'Fala meus amigos',
             comments: [
               {
                 id: 2,
@@ -34,7 +34,7 @@ class PostList extends Component {
             },
             date: '14 Aug 2019',
             content:
-              'Sou filho do Calhau\nOloko',
+              'Sou filho do Calhau. Oloko',
             comments: [
               {
                 id: 4,
@@ -44,7 +44,7 @@ class PostList extends Component {
                 },
                 date: '14 Aug 2019',
                 content:
-                  'You mongol man.'
+                  'Eita!'
               },
               {
                 id: 5,
@@ -65,7 +65,7 @@ class PostList extends Component {
         const { posts } = this.state;
         
         return (
-        <div>
+        <div className="post-list">
             {posts.map(post => (
                 <PostItem key={post.id} {...post}/>
             ))}

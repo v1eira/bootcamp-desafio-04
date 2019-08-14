@@ -3,7 +3,7 @@ import React from 'react';
 function PostItem({ author, date, content, comments }) {
   return (
     <div className="post">
-
+      
         <div className="post-header">
         <img className="avatar" src={author.avatar} />
         <div className="info">
